@@ -34,6 +34,7 @@ task :mobi do
   `bundle exec asciidoctor-epub3 -a ebook-format=kf8 book.asc`
   puts ' -- Mobi output at book.mobi'
 end
+CLEAN.include('book-kf8.epub')
 CLOBBER.include('book.mobi')
 
 desc 'build basic book formats'
