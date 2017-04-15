@@ -1,6 +1,7 @@
 require 'rake/clean'
 CLEAN.class
 
+desc 'default task html'
 task :default => [:html]
 
 desc 'build html book format'
