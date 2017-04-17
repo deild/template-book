@@ -3,3 +3,4 @@ Gemfile.lock
 *.mobi
 *.pdf
 *.html
+/images
